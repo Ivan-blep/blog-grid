@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #e2e7ec;
+    text-transform: uppercase;
+    font-family: 'Neue Hans Kendrick', sans-serif;
+}
+
+.container {
+    max-width: 1125px;
+    margin: 90px auto;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
+        "blok-1 blok-1 blok-2"
+        "blok-3 blok-4 blok-5";
+    margin: 0;
+    grid-gap: 20px;
+    grid-template-columns: 32% 32% 32%;
+    margin-bottom: 81px;
+}
+
+.bg-w {
+    background: #fff;
+}
+
+.blok-1 {
+    background-image: url(../img/blog-grid_03.jpg);
+    grid-area: blok-1;
+    padding-top: 403px;
+    padding-left: 44.5px;
+}
+
+.blok-2 {
+    grid-area: blok-2;
+
+}
+
+.blok-3 {
+    grid-area: blok-3;
+}
+
+.blok-4 {
+    grid-area: blok-4;
+}
+
+.blok-5 {
+    grid-area: blok-5;
+}
+
+
+.data-b {
+    color: #818181;
+    font-size: 13.3px;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+}
+
+.data {
+    color: #818181;
+    font-size: 13.3px;
+    margin-bottom: 11px;
+    text-transform: uppercase;
+}
+
+.blog-title-b {
+    font-size: 28px;
+    padding-right: 200px;
+    letter-spacing: 1.8px;
+    line-height: 36px;
+    color: white;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+
+.blog-title {
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    line-height: 31px;
+    margin-bottom: 62px;
+    text-transform: uppercase;
+}
+
+.cont-blok {
+    padding: 24px 26.5px 20px;
+}
+
+.loading {
+    text-align: center;
+}
+
+.loading img {
+    margin: 0 9px -10px -19px;
+}
+
+.loading-text {
+    color: #99a5b0;
+    font-size: 13px;
+}
